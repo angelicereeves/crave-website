@@ -62,24 +62,59 @@ export default function RootLayout({
           {/* Main content area */}
           <div className="flex flex-1 flex-col">
             {/* Mobile top nav */}
-            <header className="flex items-center justify-between border-b border-purple-300/40 bg-purple-100/80 px-6 py-4 backdrop-blur md:hidden">
-              <Link href="/">
-                <Image
-                  src="/cravelogo.png"
-                  alt="Crave Nutrition & Health Drink Cafe logo"
-                  width={64}
-                  height={64}
-                  priority
-                />
-              </Link>
+            {/* Mobile top nav */}
+<header className="sticky top-0 z-50 border-b border-purple-300/40 bg-purple-100/80 px-4 py-3 backdrop-blur md:hidden">
+  <div className="flex items-center justify-between">
+    <Link href="/" className="shrink-0">
+      <Image
+        src="/cravelogo.png"
+        alt="Crave Nutrition & Health Drink Cafe logo"
+        width={56}
+        height={56}
+        priority
+      />
+    </Link>
 
-              <Link
-                href="/menu"
-                className="rounded-xl bg-emerald-500 px-4 py-2 text-sm font-semibold text-purple-900"
-              >
-                Menu
-              </Link>
-            </header>
+    <div className="flex items-center gap-3">
+      {/* Text to Order (placeholder number for now) */}
+      <a
+        href="sms:+15555555555?&body=Hi! I’d like to place an order."
+        className="rounded-xl bg-emerald-500 px-3 py-2 text-sm font-bold text-purple-900 shadow-sm transition hover:bg-emerald-400"
+      >
+        Text
+      </a>
+
+      {/* Mobile menu dropdown */}
+      <details className="relative">
+        <summary className="list-none cursor-pointer rounded-xl border border-purple-200 bg-white px-3 py-2 text-sm font-semibold text-purple-900 shadow-sm">
+          Menu
+        </summary>
+
+        <div className="absolute right-0 mt-2 w-44 overflow-hidden rounded-2xl border border-purple-200 bg-white shadow-lg">
+          <nav className="flex flex-col text-sm font-semibold text-purple-900">
+            <Link href="/" className="px-4 py-3 hover:bg-purple-50">
+              Home
+            </Link>
+            <Link href="/menu" className="px-4 py-3 hover:bg-purple-50">
+              Menu
+            </Link>
+            <Link href="/about" className="px-4 py-3 hover:bg-purple-50">
+              About
+            </Link>
+            <Link href="/contact" className="px-4 py-3 hover:bg-purple-50">
+              Contact
+            </Link>
+            {/* Only include if/when you actually add the page */}
+            {/* <Link href="/gallery" className="px-4 py-3 hover:bg-purple-50">
+              Gallery
+            </Link> */}
+          </nav>
+        </div>
+      </details>
+    </div>
+  </div>
+</header>
+
 
             {/* Page background + content */}
             <main className="relative flex-1 bg-gradient-to-b from-purple-50 via-white to-emerald-50">
