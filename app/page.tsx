@@ -39,13 +39,40 @@ export default function Home() {
             </a>
 
             <a
-  href="sms:+19165382378?&body=Hi! I’d like to place an order."
+              href="sms:+19165382378?&body=Hi! I’d like to place an order."
+              className="inline-flex items-center justify-center rounded-2xl bg-emerald-500 px-7 py-3 text-sm font-semibold text-purple-900 shadow-lg transition hover:bg-emerald-400"
+            >
+              Text to Order
+            </a>
+          </div>
+        </div>
+      </section>
 
-  className="inline-flex items-center justify-center rounded-2xl bg-emerald-500 px-7 py-3 text-sm font-semibold text-purple-900 shadow-lg transition hover:bg-emerald-400"
->
-  Text to Order
-</a>
+      {/* Hours of Operation */}
+      <section className="bg-white px-6 py-16">
+        <div className="mx-auto max-w-4xl text-center">
+          <h2 className="text-3xl font-extrabold text-purple-900">
+            Hours of Operation
+          </h2>
 
+          <div className="mt-8 grid gap-6 sm:grid-cols-2">
+            <div className="rounded-2xl bg-emerald-50 p-6 shadow-sm">
+              <p className="text-lg font-semibold text-purple-900">
+                Monday – Friday
+              </p>
+              <p className="mt-2 text-xl font-bold text-emerald-600">
+                7:00 AM – 5:00 PM
+              </p>
+            </div>
+
+            <div className="rounded-2xl bg-emerald-50 p-6 shadow-sm">
+              <p className="text-lg font-semibold text-purple-900">
+                Saturday – Sunday
+              </p>
+              <p className="mt-2 text-xl font-bold text-emerald-600">
+                8:00 AM – 4:00 PM
+              </p>
+            </div>
           </div>
         </div>
       </section>

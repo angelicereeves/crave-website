@@ -3,8 +3,6 @@ export default function ContactPage() {
     <main className="min-h-screen">
       {/* Header */}
       <section className="relative overflow-hidden bg-gradient-to-br from-purple-700 to-purple-900 px-6 py-8 text-white">
-
-
         <div className="mx-auto max-w-5xl">
           <p className="text-sm font-semibold tracking-wide text-emerald-300">
             Contact
@@ -23,7 +21,7 @@ export default function ContactPage() {
       {/* Contact Content */}
       <section className="px-6 py-16">
         <div className="mx-auto max-w-5xl grid gap-10 md:grid-cols-2">
-          {/* Instagram Card */}
+          {/* Left Column */}
           <div>
             <h2 className="text-3xl font-extrabold tracking-tight text-purple-800">
               Get in touch
@@ -33,6 +31,7 @@ export default function ContactPage() {
               way to connect with us.
             </p>
 
+            {/* Instagram Card */}
             <div className="mt-8 rounded-3xl border border-purple-200 bg-purple-50 p-8 shadow-sm">
               <p className="text-sm font-semibold text-emerald-700">
                 Instagram
@@ -52,6 +51,44 @@ export default function ContactPage() {
                 className="mt-6 inline-flex items-center justify-center rounded-2xl bg-emerald-500 px-7 py-3 text-sm font-semibold text-purple-900 shadow-lg hover:bg-emerald-400"
               >
                 Open Instagram
+              </a>
+            </div>
+
+            {/* Hours Card */}
+            <div className="mt-8 rounded-3xl border border-emerald-200 bg-emerald-50 p-8 shadow-sm">
+              <p className="text-sm font-semibold text-emerald-700">
+                Hours of Operation
+              </p>
+
+              <div className="mt-5 space-y-3 text-slate-700">
+                <div className="flex items-center justify-between rounded-2xl bg-white p-4">
+                  <span className="font-semibold text-purple-900">
+                    Monday – Friday
+                  </span>
+                  <span className="font-bold text-emerald-700">
+                    7:00 AM – 5:00 PM
+                  </span>
+                </div>
+
+                <div className="flex items-center justify-between rounded-2xl bg-white p-4">
+                  <span className="font-semibold text-purple-900">
+                    Saturday – Sunday
+                  </span>
+                  <span className="font-bold text-emerald-700">
+                    8:00 AM – 4:00 PM
+                  </span>
+                </div>
+              </div>
+
+              <p className="mt-5 text-sm text-slate-600">
+                Messages are typically answered during business hours.
+              </p>
+
+              <a
+                href="sms:+19165382378?&body=Hi! I’d like to place an order."
+                className="mt-6 inline-flex items-center justify-center rounded-2xl bg-emerald-500 px-7 py-3 text-sm font-semibold text-purple-900 shadow-lg hover:bg-emerald-400"
+              >
+                Text to Order
               </a>
             </div>
           </div>

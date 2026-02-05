@@ -3,8 +3,6 @@ export default function AboutPage() {
     <main className="min-h-screen">
       {/* Header */}
       <section className="relative overflow-hidden bg-gradient-to-br from-purple-700 to-purple-900 px-6 py-8 text-white">
-
-
         <div className="mx-auto max-w-5xl">
           <p className="text-sm font-semibold tracking-wide text-emerald-300">
             About Crave
@@ -133,23 +131,59 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* CTA */}
-          <div className="mt-12 flex flex-col items-start justify-between gap-4 rounded-3xl border border-purple-200 bg-purple-50 p-8 md:flex-row md:items-center">
-            <div>
-              <h3 className="text-xl font-bold text-purple-900">
-                Ready to explore the menu?
+          {/* Visit / Hours */}
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
+            <div className="rounded-3xl border border-emerald-200 bg-emerald-50 p-8 shadow-sm">
+              <p className="text-sm font-semibold text-emerald-700">
+                Visit us
+              </p>
+              <h3 className="mt-2 text-xl font-bold text-purple-900">
+                Hours of Operation
               </h3>
-              <p className="mt-2 text-slate-600">
-                Find your next favorite shake, tea, or treat.
+
+              <div className="mt-5 space-y-3 text-slate-700">
+                <div className="flex items-center justify-between rounded-2xl bg-white p-4">
+                  <span className="font-semibold text-purple-900">
+                    Monday – Friday
+                  </span>
+                  <span className="font-bold text-emerald-700">
+                    7:00 AM – 5:00 PM
+                  </span>
+                </div>
+
+                <div className="flex items-center justify-between rounded-2xl bg-white p-4">
+                  <span className="font-semibold text-purple-900">
+                    Saturday – Sunday
+                  </span>
+                  <span className="font-bold text-emerald-700">
+                    8:00 AM – 4:00 PM
+                  </span>
+                </div>
+              </div>
+
+              <p className="mt-5 text-sm text-slate-600">
+                Swing by for a morning boost or an afternoon pick-me-up.
               </p>
             </div>
 
-            <a
-              href="/menu"
-              className="inline-flex items-center justify-center rounded-2xl bg-emerald-500 px-7 py-3 text-sm font-semibold text-purple-900 shadow-lg hover:bg-emerald-400"
-            >
-              View Menu
-            </a>
+            {/* CTA */}
+            <div className="flex flex-col items-start justify-between gap-4 rounded-3xl border border-purple-200 bg-purple-50 p-8 md:items-start">
+              <div>
+                <h3 className="text-xl font-bold text-purple-900">
+                  Ready to explore the menu?
+                </h3>
+                <p className="mt-2 text-slate-600">
+                  Find your next favorite shake, tea, or treat.
+                </p>
+              </div>
+
+              <a
+                href="/menu"
+                className="inline-flex items-center justify-center rounded-2xl bg-emerald-500 px-7 py-3 text-sm font-semibold text-purple-900 shadow-lg hover:bg-emerald-400"
+              >
+                View Menu
+              </a>
+            </div>
           </div>
         </div>
       </section>
