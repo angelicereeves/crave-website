@@ -5,6 +5,8 @@ import { loadedCoffee } from "./loadedCoffee";
 import { shakes } from "./shakes_TMP";
 import { specialtyTeas } from "./specialtyTeas";
 import { proteinTreats } from "./proteinTreats";
+import { specials } from "./specials";
+
 
 export const menuCategories = [
   loadedRefreshers,
@@ -12,5 +14,6 @@ export const menuCategories = [
   shakes,
   specialtyTeas,
   proteinTreats,
+  specials
 ];
 

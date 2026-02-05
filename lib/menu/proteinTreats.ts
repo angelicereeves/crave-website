@@ -12,6 +12,18 @@ export const proteinTreats: MenuCategory = {
       tags: ["Protein Bowls"],
     },
     {
+      name: "Basic Acai",
+      description:
+        "Almond granola, strawberries, blueberries, banana, and honey.",
+      tags: ["Protien Bowls"],
+    },
+    {
+      name: "Loaded Acai",
+      description:
+        "Almond granola, strawberries, blueberries, banana, honey, chia seeds, coconut flakes, and sliced almonds.",
+      tags: ["Protien Bowls"],
+    },
+    {
       name: "Berry Blast*",
       description:
         "Vanilla/cookies & cream soy isolate protein topped with fresh strawberries, blueberries, granola, chia seeds, coconut, honey, almonds.",
@@ -50,8 +62,14 @@ export const proteinTreats: MenuCategory = {
     {
       name: "Protein Donuts",
       description:
-        "1 donut = 120 calories, 9g protein, 1.7g fat, 16g carbs, 2g sugar.",
+        "1 donut = 140 calories, 9g protein, 1.7g fat, 16g carbs, 2g sugar.",
       tags: ["Protein Donuts"],
+    },
+    {
+      name: "Cake Pops",
+      description:
+        "1 cakepop = 150-180 calories, Gluten Free 6g protein, 5g sugar.",
+      tags: ["Protein Cake Pops"],
     },
     {
       name: "Protein Balls",

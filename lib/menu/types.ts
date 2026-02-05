@@ -1,13 +1,21 @@
 export type MenuItem = {
   name: string;
-  description?: string;
-  price?: string; // e.g. "$8" or "from $7"
-  tags?: string[]; // e.g. ["high protein", "low sugar"]
+  description: string;
+  tags?: string[];
+};
+
+export type MenuSize = {
+  label: string;
+  volume: string;
 };
 
 export type MenuCategory = {
-  id: string; // used for anchors like #protein-shakes
+  id: string;
   title: string;
   subtitle?: string;
+
+  // ✅ optional (only shakes uses it for now)
+  sizes?: MenuSize[];
+
   items: MenuItem[];
 };

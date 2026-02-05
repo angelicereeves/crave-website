@@ -5,12 +5,7 @@ export const loadedCoffee: MenuCategory = {
   title: "Loaded Coffee",
   subtitle: "Protein-packed iced coffee favorites.",
   items: [
-    {
-      name: "Donut Shot",
-      description:
-        "Add to any 32oz iced coffee for $3. Helps control hunger and reduce fat.",
-      tags: ["Add-On"],
-    },
+    
     {
       name: "Horchata",
       description:

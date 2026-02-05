@@ -4,6 +4,10 @@ export const specialtyTeas: MenuCategory = {
   id: "specialty-teas",
   title: "Specialty Teas",
   subtitle: "Enhanced teas with boosters and bold flavors.",
+    sizes: [
+    { label: "Medium", volume: "24 oz" },
+    { label: "Large", volume: "32 oz" },
+  ],
   items: [
     {
       name: "Books and Roses",

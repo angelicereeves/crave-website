@@ -4,11 +4,15 @@ export const loadedRefreshers: MenuCategory = {
   id: "loaded-refreshers",
   title: "Loaded Refreshers",
   subtitle: "Bold, refreshing, and energizing.",
+    sizes: [
+    { label: "Medium", volume: "24 oz" },
+    { label: "Large", volume: "32 oz" },
+  ],
   items: [
     {
       name: "Beach Please",
       description:
-        "Peach tea, coconut, cucumber-lime, watermelon, mango aloe",
+        "Peach tea, coconut, cucumber-lime, watermelon, cranberry aloe",
       tags: ["Tropical B12"],
     },
     {
@@ -121,11 +125,7 @@ export const loadedRefreshers: MenuCategory = {
       description: "Raspberry tea, blue blast, cherry, cranberry aloe",
       tags: ["Pomegranate B12"],
     },
-    {
-      name: "Paradise",
-      description: "Original tea, strawberry kiwi, grape, cranberry aloe",
-      tags: ["Pomegranate B12"],
-    },
+   
     {
       name: "Orange Blueberry",
       description: "Original tea, blueberry, orange pineapple, mango aloe",
@@ -179,11 +179,7 @@ export const loadedRefreshers: MenuCategory = {
       description: "Lemon tea, watermelon, blueberry, cranberry aloe",
       tags: ["Lemon Lime B12"],
     },
-    {
-      name: "Gushers",
-      description: "Lemon tea, grape, blue blast, cranberry aloe",
-      tags: ["Tropical B12"],
-    },
+    
     {
       name: "Cherry Limeade",
       description: "Lemon tea, cherry lime, cranberry aloe",
@@ -209,6 +205,24 @@ export const loadedRefreshers: MenuCategory = {
       description:
         "Original tea, blueberry, cherry, strawberry, grape, cranberry aloe",
       tags: ["Pomegranate B12"],
+    },
+    {
+      name: "Peach Beach",
+      description:
+        "Peach tea, peach, cucumber-lime, raspberry, cranberry aloe",
+      tags: ["Tropical B12"],
+    },
+    {
+      name: "The Lauren",
+      description:
+        "Raspberry tea, coconut, blue razz, raspberry, blackberry, pina colada, cranberry aloe",
+      tags: ["Pomegranete B12"],
+    },
+    {
+      name: "Passion Kisses",
+      description:
+        "Raspberry tea, strawberry, melon, tropical fruit, cranberry aloe",
+      tags: ["Pomegranete B12"],
     },
   ],
 };

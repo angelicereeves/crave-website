@@ -13,8 +13,23 @@ export default function MenuSection({
           <h2 className="text-2xl font-extrabold tracking-tight text-purple-900">
             {category.title}
           </h2>
+
           {category.subtitle ? (
             <p className="mt-1 text-slate-600">{category.subtitle}</p>
+          ) : null}
+
+          {/* ✅ Sizes (only shows if category.sizes exists) */}
+          {category.sizes?.length ? (
+            <div className="mt-4 flex flex-wrap gap-2">
+              {category.sizes.map((size) => (
+                <span
+                  key={size.label}
+                  className="rounded-full bg-emerald-100 px-4 py-1.5 text-xs font-semibold text-purple-900"
+                >
+                  {size.label} · {size.volume}
+                </span>
+              ))}
+            </div>
           ) : null}
         </div>
 
@@ -25,9 +40,7 @@ export default function MenuSection({
               key={item.name}
               className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-emerald-200 hover:shadow-md"
             >
-              <p className="text-lg font-bold text-slate-900">
-                {item.name}
-              </p>
+              <p className="text-lg font-bold text-slate-900">{item.name}</p>
 
               {item.description ? (
                 <p className="mt-2 text-sm leading-6 text-slate-600">
