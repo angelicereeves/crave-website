@@ -10,8 +10,8 @@ export default function Home() {
           <Image
             src="/cravelogo.png"
             alt="Crave Nutrition & Health Drink Cafe logo"
-            width={250}
-            height={250}
+            width={300}
+            height={300}
             priority
             className="mb-8 drop-shadow-xl"
           />
