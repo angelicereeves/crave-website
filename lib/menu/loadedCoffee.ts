@@ -6,12 +6,7 @@ export const loadedCoffee: MenuCategory = {
   subtitle: "Protein-packed iced coffee favorites.",
   items: [
     
-    {
-      name: "Horchata",
-      description:
-        "15 grams of protein, 2 grams of sugar. (32oz only)",
-      tags: ["Iced Protein Coffee"],
-    },
+    
     {
       name: "Caramel Iced Latte",
       description:
