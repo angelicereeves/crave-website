@@ -52,7 +52,8 @@ export default function RootLayout({
 
               {/* Text to Order (placeholder number) */}
               <a
-                href="sms:+15555555555?&body=Hi! I’d like to place an order."
+                href="sms:+19165382378?&body=Hi! I’d like to place an order."
+
                 className="ml-2 inline-flex items-center justify-center rounded-2xl bg-emerald-500 px-5 py-3 text-sm font-bold text-purple-900 shadow-lg transition hover:bg-emerald-400"
               >
                 Text to Order
@@ -91,7 +92,8 @@ export default function RootLayout({
                     <div className="border-t border-slate-200" />
 
                     <a
-                      href="sms:+15555555555?&body=Hi! I’d like to place an order."
+                      href="sms:+19165382378?&body=Hi! I’d like to place an order."
+
                       className="px-4 py-3 text-emerald-700 hover:bg-emerald-50"
                     >
                       Text to Order

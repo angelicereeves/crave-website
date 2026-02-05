@@ -39,7 +39,8 @@ export default function Home() {
             </a>
 
             <a
-  href="sms:+15555555555?&body=Hi! I’d like to place an order."
+  href="sms:+19165382378?&body=Hi! I’d like to place an order."
+
   className="inline-flex items-center justify-center rounded-2xl bg-emerald-500 px-7 py-3 text-sm font-semibold text-purple-900 shadow-lg transition hover:bg-emerald-400"
 >
   Text to Order
