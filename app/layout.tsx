@@ -39,10 +39,10 @@ export default function RootLayout({
               <Link href="/menu" className="hover:text-emerald-600 transition">
                 Menu
               </Link>
-              {/* Add later if you build it */}
-              {/* <Link href="/gallery" className="hover:text-emerald-600 transition">
-                Gallery
-              </Link> */}
+              <Link href="/gallery" className="hover:text-emerald-600 transition">
+              Gallery
+              </Link>
+
               <Link href="/about" className="hover:text-emerald-600 transition">
                 About
               </Link>
@@ -74,10 +74,10 @@ export default function RootLayout({
                     <Link href="/menu" className="px-4 py-3 hover:bg-purple-50">
                       Menu
                     </Link>
-                    {/* Add later if you build it */}
-                    {/* <Link href="/gallery" className="px-4 py-3 hover:bg-purple-50">
+                    <Link href="/gallery" className="px-4 py-3 hover:bg-purple-50">
                       Gallery
-                    </Link> */}
+                    </Link>
+
                     <Link href="/about" className="px-4 py-3 hover:bg-purple-50">
                       About
                     </Link>
