@@ -16,31 +16,31 @@ export const loadedCoffee: MenuCategory = {
       name: "Caramel Iced Latte",
       description:
         "15 grams of protein, 2 grams of sugar.",
-      tags: ["Iced Protein Coffee"],
+      tags: ["Protein Coffee"],
     },
     {
       name: "Dirty Chai",
       description:
         "15 grams of protein, 2 grams of sugar.",
-      tags: ["Iced Protein Coffee"],
+      tags: ["Protein Coffee"],
     },
     {
       name: "White Chocolate Mocha",
       description:
         "15 grams of protein, 2 grams of sugar.",
-      tags: ["Iced Protein Coffee"],
+      tags: ["Protein Coffee"],
     },
     {
       name: "Cookie Butter",
       description:
         "Cookies & cream, café latte, and house blend coffee protein blended with almond extract and chocolate chips. Garnished with a sugar-free caramel rim and whipped cream.",
-      tags: ["Iced Protein Coffee"],
+      tags: ["Protein Coffee"],
     },
     {
       name: "Jumping Monkey",
       description:
         "Banana caramel and house blend coffee protein blended and poured over ice. Garnished with a sugar-free caramel rim and whipped cream.",
-      tags: ["Iced Protein Coffee"],
+      tags: ["Protein Coffee"],
     },
   ],
 };
