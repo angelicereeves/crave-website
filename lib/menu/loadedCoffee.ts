@@ -4,6 +4,11 @@ export const loadedCoffee: MenuCategory = {
   id: "loaded-coffee",
   title: "Loaded Coffee",
   subtitle: "Protein-packed iced coffee favorites.",
+  sizes: [
+    { label: "Hot Coffee", volume: "20 oz" },
+    { label: "Iced or Blended: Medium", volume: "24 oz" },
+    { label: "Iced or Blended: Large", volume: "32 oz" },
+  ],
   items: [
     
     
