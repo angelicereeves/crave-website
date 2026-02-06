@@ -4,8 +4,21 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white">
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-purple-700 to-purple-900 px-6 py-24 text-white">
-        <div className="mx-auto flex max-w-5xl flex-col items-center text-center">
+      <section className="relative overflow-hidden px-6 py-24 text-white">
+        {/* Background Image */}
+        <Image
+          src="/cravecover.jpeg"
+          alt="Crave Nutrition & Health Drink Cafe background"
+          fill
+          priority
+          className="object-cover"
+        />
+
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-purple-950/75" />
+
+        {/* Content */}
+        <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center text-center">
           {/* Big Logo */}
           <Image
             src="/cravelogo.png"
@@ -33,7 +46,7 @@ export default function Home() {
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <a
               href="/menu"
-              className="inline-flex items-center justify-center rounded-2xl bg-emerald-500 px-7 py-3 text-sm font-semibold text-purple-900 shadow-lg hover:bg-emerald-400"
+              className="inline-flex items-center justify-center rounded-2xl bg-emerald-500 px-7 py-3 text-sm font-semibold text-purple-900 shadow-lg transition hover:bg-emerald-400"
             >
               View Menu
             </a>

@@ -7,12 +7,23 @@ type GalleryImage = {
 
 const galleryImages: GalleryImage[] = [
   // Swap these to your real images later (put files in /public/gallery)
-  { src: "/gallery/placeholder-1.jpg", alt: "Crave drink photo" },
-  { src: "/gallery/placeholder-2.jpg", alt: "Crave shake photo" },
-  { src: "/gallery/placeholder-3.jpg", alt: "Crave tea photo" },
-  { src: "/gallery/placeholder-4.jpg", alt: "Crave cafe vibe" },
-  { src: "/gallery/placeholder-5.jpg", alt: "Crave treat photo" },
-  { src: "/gallery/placeholder-6.jpg", alt: "Crave counter photo" },
+  { src: "/gallery/crave1.png", alt: "Crave" },
+  { src: "/gallery/crave2.jpeg", alt: "Crave" },
+  { src: "/gallery/crave3.jpeg", alt: "Crave" },
+  { src: "/gallery/crave4.jpeg", alt: "Crave" },
+  { src: "/gallery/crave5.jpeg", alt: "Crave" },
+  { src: "/gallery/crave6.jpeg", alt: "Crave" },
+  { src: "/gallery/crave7.jpeg", alt: "Crave" },
+  { src: "/gallery/crave8.jpeg", alt: "Crave" },
+  { src: "/gallery/crave9.jpeg", alt: "Crave" },
+  { src: "/gallery/crave10.jpeg", alt: "Crave" },
+  { src: "/gallery/crave11.jpeg", alt: "Crave" },
+  { src: "/gallery/crave12.jpeg", alt: "Crave" },
+  { src: "/gallery/crave13.jpeg", alt: "Crave" },
+  { src: "/gallery/crave14.jpeg", alt: "Crave" },
+  { src: "/cravecover.jpeg", alt: "Crave" },
+ 
+  
 ];
 
 export default function GalleryPage() {
