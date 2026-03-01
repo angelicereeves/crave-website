@@ -3,108 +3,96 @@ import type { MenuCategory } from "./types";
 export const specials: MenuCategory = {
   id: "monthly-specials",
   title: "Monthly Specials",
-  subtitle: "February Specials — limited-time favorites.",
+  subtitle: "March Specials — limited-time favorites.",
   items: [
-    // --- SHAKES ---
+    // =========================
+    // MARCH SPECIALS — SHAKES
+    // =========================
     {
-      name: "Red Velvet Oreo",
+      name: "Birthday Cake Oreo",
       description:
-        "Vanilla, wild berry protein, red velvet, dark chocolate drizzle, oreo.",
-      tags: ["Shake"],
+        "Vanilla, french vanilla, cookies n’ cream, oreos, graham crackers, sprinkles.",
+      tags: ["Shake", "March"],
     },
     {
-      name: "Raspberry Truffle",
+      name: "Key Lime Pie",
       description:
-        "Chocolate, cookies n cream, and dulce protein, raspberry syrup, choco chips, dark chocolate rim.",
-      tags: ["Shake"],
+        "Vanilla, french vanilla, lime extract, graham crackers, whipped cream.",
+      tags: ["Shake", "March"],
     },
     {
-      name: "I Love You S'more",
+      name: "Irish Mudslide",
       description:
-        "Dutch and chocolate protein, marshmallow and raspberry rim, graham crackers, choco chips, mini marshmallows.",
-      tags: ["Shake"],
+        "Chocolate, cookies n cream, and mint chip protein, oreos, chocolate chips, chocolate drizzle.",
+      tags: ["Shake", "March"],
     },
     {
-      name: "Funfetti Cupcake",
+      name: "Rainbow Sherbert",
       description:
-        "Vanilla and french vanilla protein, sprinkles, graham crackers, white choco chips.",
-      tags: ["Shake"],
-    },
-
-    // --- TEAS ---
-    {
-      name: "Coconut Cutie",
-      description:
-        "Peach tea, tropical b12, coconut, strawberry, mango aloe.",
-      tags: ["Tea"],
-    },
-    {
-      name: "Valentine’s Baby",
-      description:
-        "Raspberry tea, pom b12, cherry lime, blue razz, raspberry, pina colada, cranberry aloe.",
-      tags: ["Tea"],
-    },
-    {
-      name: "Watermelon Sugar",
-      description:
-        "Lemon tea, lemon lime b12, watermelon, green apple, cranberry aloe.",
-      tags: ["Tea"],
-    },
-    {
-      name: "Cotton Candy Colada",
-      description:
-        "Raspberry tea, pom b12, cotton candy, pina colada, blueberry, cranberry aloe.",
-      tags: ["Tea"],
+        "Strawberry cheesecake, orange cream, vanilla protein, lime extract, strawberries, sprinkles.",
+      tags: ["Shake", "March"],
     },
 
-    // --- VALENTINE'S (from the other post) ---
+    // =========================
+    // MARCH SPECIALS — TEAS
+    // =========================
     {
-      name: "Heart Throb",
+      name: "Spring Break",
       description:
-        "Chocolate & banana caramel & dutch chocolate protein. Strawberries, chocolate drizzle.",
-      tags: ["Shake", "Valentine’s"],
+        "Cucumber lime, orange, raspberry, lemon tea, cranberry aloe, lemon b12.",
+      tags: ["Tea", "March"],
     },
     {
-      name: "Smooches",
+      name: "Pixie Stick",
       description:
-        "Vanilla & strawberry cheesecake & french vanilla protein. Strawberries, sprinkles.",
-      tags: ["Shake", "Valentine’s"],
+        "Strawberry, watermelon, blue raspberry, raspberry tea, cranberry aloe, pomegranate b12.",
+      tags: ["Tea", "March"],
     },
     {
-      name: "Nutty Bout You",
+      name: "Emerald Isle",
       description:
-        "Peanut cookie & dulce & pralines protein. Peanut butter, caramel drizzle, walnuts.",
-      tags: ["Shake", "Valentine’s"],
+        "Blue blast, green apple, melon, cucumber, lemon tea, cranberry aloe, lemon lime b12.",
+      tags: ["Tea", "March"],
     },
     {
-      name: "Cupid’s Kiss",
+      name: "March Margarita",
       description:
-        "Watermelon, peach, raspberry tea, orange b12, cranberry aloe.",
-      tags: ["Tea", "Valentine’s"],
+        "Orange, peach, raspberry, cherry, raspberry tea, cranberry aloe, pomegranate b12.",
+      tags: ["Tea", "March"],
+    },
+
+    // ==================================
+    // SAINT PATRICK’S DAY — LIMITED TIME
+    // ==================================
+    {
+      name: "Shamrock Shake",
+      description:
+        "Vanilla, mint chip protein, sf chocolate drizzle, choco chips, oreos.",
+      tags: ["Shake", "St. Patrick’s"],
     },
     {
-      name: "Heartbreaker",
+      name: "Lucky Charms",
       description:
-        "Strawberry, melon, pineapple, raspberry tea, pomegranate b12, cranberry aloe.",
-      tags: ["Tea", "Valentine’s"],
+        "Vanilla, french vanilla protein, marshmallow, lucky charm cereal.",
+      tags: ["Shake", "St. Patrick’s"],
     },
     {
-      name: "Single & Thrivin",
+      name: "Lucky Leprechaun",
       description:
-        "Lemon tea, lemon-lime b12, cherry, passion fruit, cucumber, mango aloe.",
-      tags: ["Tea", "Valentine’s"],
+        "Lemon tea, cranberry aloe, cucumber lime, pineapple, green apple, lemon b12.",
+      tags: ["Tea", "St. Patrick’s"],
     },
     {
-      name: "Crazy Ex",
+      name: "Rainbows End",
       description:
-        "Green apple, pineapple, coconut, peach tea, tropical b12, mango aloe.",
-      tags: ["Tea", "Valentine’s"],
+        "Peach tea, orange b12, strawberry, blue razzz, pineapple, cranberry aloe.",
+      tags: ["Tea", "St. Patrick’s"],
     },
     {
-      name: "Candy Hearts",
+      name: "Clover Tea",
       description:
-        "Rainbow candy, pomegranate, raspberry, lemon tea, lemon-lime b12, cranberry aloe, candy hearts.",
-      tags: ["Tea", "Valentine’s"],
+        "Raspberry tea, lavender lemon, green apple, mango aloe, tropical b12.",
+      tags: ["Tea", "St. Patrick’s"],
     },
   ],
 };
