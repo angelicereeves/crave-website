@@ -94,5 +94,45 @@ export const specials: MenuCategory = {
         "Raspberry tea, lavender lemon, green apple, mango aloe, tropical b12.",
       tags: ["Tea", "St. Patrick’s"],
     },
+
+    // =========================
+    // MARCH MADNESS SPECIALS
+    // =========================
+    {
+      name: "Nothin' But Net",
+      description:
+        "Strawberry, pineapple, coconut, original tea, tropical b12, mango aloe.",
+      tags: ["Tea", "March Madness"],
+    },
+    {
+      name: "Three Pointer",
+      description:
+        "Chocolate & dutch protein, caramel rim, choco chips, whipped cream.",
+      tags: ["Shake", "March Madness"],
+    },
+    {
+      name: "Melon Madness",
+      description:
+        "Melon, watermelon, peach tea, orange b12, mango aloe.",
+      tags: ["Tea", "March Madness"],
+    },
+    {
+      name: "Courtside Crunch",
+      description:
+        "Vanilla & cookies n’ cream protein, oreos, M&M’s, whipped cream.",
+      tags: ["Shake", "March Madness"],
+    },
+    {
+      name: "Pregame Punch",
+      description:
+        "Pomegranate, raspberry, lemonade, raspberry tea, pomegranate b12, cranberry aloe.",
+      tags: ["Tea", "March Madness"],
+    },
+    {
+      name: "Baller Berry",
+      description:
+        "Vanilla & mango protein, strawberries, mango.",
+      tags: ["Shake", "March Madness"],
+    },
   ],
 };
