@@ -2,137 +2,151 @@ import type { MenuCategory } from "./types";
 
 export const specials: MenuCategory = {
   id: "monthly-specials",
-  title: "Monthly Specials",
-  subtitle: "March Specials — limited-time favorites.",
+  title: "Seasonal Specials",
+  subtitle: "Spring, April & Easter limited-time favorites.",
   items: [
     // =========================
-    // MARCH SPECIALS — SHAKES
+    // 🌸 SPRING SPECIALS
     // =========================
+
+    // TEAS
     {
-      name: "Birthday Cake Oreo",
+      name: "Orange Soda",
       description:
-        "Vanilla, french vanilla, cookies n’ cream, oreos, graham crackers, sprinkles.",
-      tags: ["Shake", "March"],
+        "Peach tea, orange, orange B12, mango aloe, carbonated.",
+      tags: ["Tea", "Spring"],
     },
     {
-      name: "Key Lime Pie",
+      name: "Spring Fever",
       description:
-        "Vanilla, french vanilla, lime extract, graham crackers, whipped cream.",
-      tags: ["Shake", "March"],
+        "Raspberry tea, blue razz, piña colada, cherry lime, orange B12, cranberry aloe.",
+      tags: ["Tea", "Spring"],
     },
     {
-      name: "Irish Mudslide",
+      name: "Pollen Punch",
       description:
-        "Chocolate, cookies n cream, and mint chip protein, oreos, chocolate chips, chocolate drizzle.",
-      tags: ["Shake", "March"],
+        "Lemon tea, passion fruit, strawberry, pomegranate B12, cranberry aloe.",
+      tags: ["Tea", "Spring"],
     },
     {
-      name: "Rainbow Sherbert",
+      name: "Peach Nectar",
       description:
-        "Strawberry cheesecake, orange cream, vanilla protein, lime extract, strawberries, sprinkles.",
-      tags: ["Shake", "March"],
+        "Peach tea, raspberry, orange, watermelon, tropical B12, mango aloe.",
+      tags: ["Tea", "Spring"],
+    },
+
+    // SHAKES
+    {
+      name: "Wild Cherry",
+      description:
+        "Vanilla and French vanilla protein, frozen cherries.",
+      tags: ["Shake", "Spring"],
+    },
+    {
+      name: "Strawberry Mango",
+      description:
+        "Vanilla, strawberry, mango, pineapple protein, frozen strawberries and mangoes.",
+      tags: ["Shake", "Spring"],
+    },
+    {
+      name: "Lemon Coconut Bar",
+      description:
+        "Vanilla, French vanilla, coconut extract, graham cracker, coconut flakes.",
+      tags: ["Shake", "Spring"],
+    },
+    {
+      name: "White Chocolate Reese’s",
+      description:
+        "Vanilla, French vanilla, peanut cookie, cookies & cream protein, peanut butter, caramel rim, white chocolate chips, peanuts.",
+      tags: ["Shake", "Spring"],
     },
 
     // =========================
-    // MARCH SPECIALS — TEAS
+    // 🌼 APRIL SPECIALS
     // =========================
+
+    // TEAS
     {
-      name: "Spring Break",
+      name: "Spring Punch",
       description:
-        "Cucumber lime, orange, raspberry, lemon tea, cranberry aloe, lemon b12.",
-      tags: ["Tea", "March"],
+        "Raspberry tea, pomegranate, tropical fruit, cranberry aloe, pomegranate B12.",
+      tags: ["Tea", "April"],
     },
     {
-      name: "Pixie Stick",
+      name: "Cool Chick",
       description:
-        "Strawberry, watermelon, blue raspberry, raspberry tea, cranberry aloe, pomegranate b12.",
-      tags: ["Tea", "March"],
+        "Peach tea, peach, watermelon, pineapple, coconut, blue razz, mango aloe, tropical B12.",
+      tags: ["Tea", "April"],
     },
     {
-      name: "Emerald Isle",
+      name: "April Showers",
       description:
-        "Blue blast, green apple, melon, cucumber, lemon tea, cranberry aloe, lemon lime b12.",
-      tags: ["Tea", "March"],
-    },
-    {
-      name: "March Margarita",
-      description:
-        "Orange, peach, raspberry, cherry, raspberry tea, cranberry aloe, pomegranate b12.",
-      tags: ["Tea", "March"],
+        "Lemon tea, strawberry kiwi, cucumber, orange, cranberry aloe, orange B12.",
+      tags: ["Tea", "April"],
     },
 
-    // ==================================
-    // SAINT PATRICK’S DAY — LIMITED TIME
-    // ==================================
+    // SHAKES
     {
-      name: "Shamrock Shake",
+      name: "Dirt Cake",
       description:
-        "Vanilla, mint chip protein, sf chocolate drizzle, choco chips, oreos.",
-      tags: ["Shake", "St. Patrick’s"],
+        "Chocolate and Dutch chocolate protein, caramel syrup, graham crackers, caramel and chocolate rim.",
+      tags: ["Shake", "April"],
     },
     {
-      name: "Lucky Charms",
+      name: "Crème Egg",
       description:
-        "Vanilla, french vanilla protein, marshmallow, lucky charm cereal.",
-      tags: ["Shake", "St. Patrick’s"],
+        "Chocolate, orange cream, and dulce protein.",
+      tags: ["Shake", "April"],
     },
     {
-      name: "Lucky Leprechaun",
+      name: "Chubby Bunny",
       description:
-        "Lemon tea, cranberry aloe, cucumber lime, pineapple, green apple, lemon b12.",
-      tags: ["Tea", "St. Patrick’s"],
-    },
-    {
-      name: "Rainbows End",
-      description:
-        "Peach tea, orange b12, strawberry, blue razzz, pineapple, cranberry aloe.",
-      tags: ["Tea", "St. Patrick’s"],
-    },
-    {
-      name: "Clover Tea",
-      description:
-        "Raspberry tea, lavender lemon, green apple, mango aloe, tropical b12.",
-      tags: ["Tea", "St. Patrick’s"],
+        "Vanilla, French vanilla, and strawberry protein, strawberry syrup, marshmallow powder, marshmallows.",
+      tags: ["Shake", "April"],
     },
 
     // =========================
-    // MARCH MADNESS SPECIALS
+    // 🐰 EASTER SPECIALS
     // =========================
+
+    // TEAS
     {
-      name: "Nothin' But Net",
+      name: "The Dyed Egg",
       description:
-        "Strawberry, pineapple, coconut, original tea, tropical b12, mango aloe.",
-      tags: ["Tea", "March Madness"],
+        "Pomegranate B12, blue razz, watermelon, rainbow candy, cranberry aloe.",
+      tags: ["Tea", "Easter"],
     },
     {
-      name: "Three Pointer",
+      name: "Silly Rabbit",
       description:
-        "Chocolate & dutch protein, caramel rim, choco chips, whipped cream.",
-      tags: ["Shake", "March Madness"],
+        "Lime B12, watermelon, tropical fruit, grape, cranberry aloe.",
+      tags: ["Tea", "Easter"],
     },
     {
-      name: "Melon Madness",
+      name: "Jellybean",
       description:
-        "Melon, watermelon, peach tea, orange b12, mango aloe.",
-      tags: ["Tea", "March Madness"],
+        "Lime B12, blue raspberry, green apple, strawberry, blueberry, lavender lemon, cranberry aloe.",
+      tags: ["Tea", "Easter"],
+    },
+
+    // SHAKES
+    {
+      name: "Pink Peep",
+      description:
+        "Vanilla and French vanilla protein, marshmallows.",
+      tags: ["Shake", "Easter"],
     },
     {
-      name: "Courtside Crunch",
+      name: "Bad Bunny",
       description:
-        "Vanilla & cookies n’ cream protein, oreos, M&M’s, whipped cream.",
-      tags: ["Shake", "March Madness"],
+        "Chocolate and Dutch chocolate protein, caramel rim, chocolate chips.",
+      tags: ["Shake", "Easter"],
     },
     {
-      name: "Pregame Punch",
+      name: "Carrot Cake",
       description:
-        "Pomegranate, raspberry, lemonade, raspberry tea, pomegranate b12, cranberry aloe.",
-      tags: ["Tea", "March Madness"],
-    },
-    {
-      name: "Baller Berry",
-      description:
-        "Vanilla & mango protein, strawberries, mango.",
-      tags: ["Shake", "March Madness"],
+        "Vanilla and praline protein, carrot cake pudding, coconut flakes.",
+      tags: ["Shake", "Easter"],
     },
   ],
 };
