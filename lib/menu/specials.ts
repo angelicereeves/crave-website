@@ -3,150 +3,150 @@ import type { MenuCategory } from "./types";
 export const specials: MenuCategory = {
   id: "monthly-specials",
   title: "Seasonal Specials",
-  subtitle: "Spring, April & Easter limited-time favorites.",
+  subtitle: "May Specials — limited-time favorites.",
   items: [
     // =========================
-    // 🌸 SPRING SPECIALS
+    // 🎉 CINCO DE MAYO SPECIALS
     // =========================
-
-    // TEAS
     {
-      name: "Orange Soda",
+      name: "Cactus Cooler",
       description:
-        "Peach tea, orange, orange B12, mango aloe, carbonated.",
-      tags: ["Tea", "Spring"],
+        "Peach tea, pineapple, green apple, cucumber lime, tropical B12, mango aloe.",
+      tags: ["Tea", "Cinco de Mayo", "May"],
     },
     {
-      name: "Spring Fever",
+      name: "Cha Cha Chai",
       description:
-        "Raspberry tea, blue razz, piña colada, cherry lime, orange B12, cranberry aloe.",
-      tags: ["Tea", "Spring"],
-    },
-    {
-      name: "Pollen Punch",
-      description:
-        "Lemon tea, passion fruit, strawberry, pomegranate B12, cranberry aloe.",
-      tags: ["Tea", "Spring"],
-    },
-    {
-      name: "Peach Nectar",
-      description:
-        "Peach tea, raspberry, orange, watermelon, tropical B12, mango aloe.",
-      tags: ["Tea", "Spring"],
-    },
-
-    // SHAKES
-    {
-      name: "Wild Cherry",
-      description:
-        "Vanilla and French vanilla protein, frozen cherries.",
-      tags: ["Shake", "Spring"],
-    },
-    {
-      name: "Strawberry Mango",
-      description:
-        "Vanilla, strawberry, mango, pineapple protein, frozen strawberries and mangoes.",
-      tags: ["Shake", "Spring"],
-    },
-    {
-      name: "Lemon Coconut Bar",
-      description:
-        "Vanilla, French vanilla, coconut extract, graham cracker, coconut flakes.",
-      tags: ["Shake", "Spring"],
-    },
-    {
-      name: "White Chocolate Reese’s",
-      description:
-        "Vanilla, French vanilla, peanut cookie, cookies & cream protein, peanut butter, caramel rim, white chocolate chips, peanuts.",
-      tags: ["Shake", "Spring"],
+        "Vanilla protein, café latte protein, French vanilla protein, ground coffee, chai tea, caramel, sprinkles.",
+      tags: ["Shake", "Cinco de Mayo", "May"],
     },
 
     // =========================
-    // 🌼 APRIL SPECIALS
+    // 🌸 MAY SPECIALS — TEAS
     // =========================
-
-    // TEAS
     {
-      name: "Spring Punch",
+      name: "Strawberry Dragonfruit",
       description:
-        "Raspberry tea, pomegranate, tropical fruit, cranberry aloe, pomegranate B12.",
-      tags: ["Tea", "April"],
+        "Lemon tea, lemon lime B12, strawberry, lemonade, dehydrated dragonfruit, cranberry aloe.",
+      tags: ["Tea", "May"],
     },
     {
-      name: "Cool Chick",
+      name: "In Bloom",
       description:
-        "Peach tea, peach, watermelon, pineapple, coconut, blue razz, mango aloe, tropical B12.",
-      tags: ["Tea", "April"],
+        "Pomegranate B12, raspberry tea, blueberry, cherry, cranberry aloe.",
+      tags: ["Tea", "May"],
     },
     {
-      name: "April Showers",
+      name: "Sunshine",
       description:
-        "Lemon tea, strawberry kiwi, cucumber, orange, cranberry aloe, orange B12.",
-      tags: ["Tea", "April"],
-    },
-
-    // SHAKES
-    {
-      name: "Dirt Cake",
-      description:
-        "Chocolate and Dutch chocolate protein, caramel syrup, graham crackers, caramel and chocolate rim.",
-      tags: ["Shake", "April"],
+        "Orange B12, peach tea, peach, coconut, lemonade, blue raspberry, mango aloe.",
+      tags: ["Tea", "May"],
     },
     {
-      name: "Crème Egg",
+      name: "Spring Breeze",
       description:
-        "Chocolate, orange cream, and dulce protein.",
-      tags: ["Shake", "April"],
-    },
-    {
-      name: "Chubby Bunny",
-      description:
-        "Vanilla, French vanilla, and strawberry protein, strawberry syrup, marshmallow powder, marshmallows.",
-      tags: ["Shake", "April"],
+        "Raspberry tea, pomegranate B12, cucumber, strawberry, cranberry aloe.",
+      tags: ["Tea", "May"],
     },
 
     // =========================
-    // 🐰 EASTER SPECIALS
+    // 🌸 MAY SPECIALS — SHAKES
     // =========================
+    {
+      name: "Piña Colada",
+      description:
+        "Vanilla and piña colada protein, coconut extract, frozen pineapple.",
+      tags: ["Shake", "May"],
+    },
+    {
+      name: "Island Breeze",
+      description:
+        "Orange, vanilla protein, frozen mangoes and pineapple.",
+      tags: ["Shake", "May"],
+    },
+    {
+      name: "Monkey Bread",
+      description:
+        "Vanilla, dulce, and praline protein, cinnamon, caramel rim.",
+      tags: ["Shake", "May"],
+    },
+    {
+      name: "Honey Breeze",
+      description:
+        "Vanilla, French vanilla protein, lemon extract, honey drizzle.",
+      tags: ["Shake", "May"],
+    },
 
-    // TEAS
+    // =========================
+    // 🇺🇸 MEMORIAL DAY SPECIALS
+    // =========================
     {
-      name: "The Dyed Egg",
+      name: "Patriotic Punch",
       description:
-        "Pomegranate B12, blue razz, watermelon, rainbow candy, cranberry aloe.",
-      tags: ["Tea", "Easter"],
+        "Razz tea, pomegranate B12, cherry lime, blue raspberry, cranberry aloe.",
+      tags: ["Tea", "Memorial Day", "May"],
     },
     {
-      name: "Silly Rabbit",
+      name: "Freedom Shake",
       description:
-        "Lime B12, watermelon, tropical fruit, grape, cranberry aloe.",
-      tags: ["Tea", "Easter"],
-    },
-    {
-      name: "Jellybean",
-      description:
-        "Lime B12, blue raspberry, green apple, strawberry, blueberry, lavender lemon, cranberry aloe.",
-      tags: ["Tea", "Easter"],
+        "Vanilla, French vanilla protein, lemon extract, blueberries.",
+      tags: ["Shake", "Memorial Day", "May"],
     },
 
-    // SHAKES
+    // =========================
+    // 🥧 PI DAY SPECIALS
+    // =========================
     {
-      name: "Pink Peep",
+      name: "Apple Pie",
       description:
-        "Vanilla and French vanilla protein, marshmallows.",
-      tags: ["Shake", "Easter"],
+        "Vanilla, dulce, and pralines protein, apple pie spice, caramel drizzle, graham cracker.",
+      tags: ["Shake", "Pi Day"],
     },
     {
-      name: "Bad Bunny",
+      name: "Blueberry Pie",
       description:
-        "Chocolate and Dutch chocolate protein, caramel rim, chocolate chips.",
-      tags: ["Shake", "Easter"],
+        "Vanilla and French vanilla protein, blueberries, graham crackers.",
+      tags: ["Shake", "Pi Day"],
     },
     {
-      name: "Carrot Cake",
+      name: "French Silk Pie",
       description:
-        "Vanilla and praline protein, carrot cake pudding, coconut flakes.",
-      tags: ["Shake", "Easter"],
+        "Chocolate, Dutch, and vanilla protein, chocolate drizzle, chocolate chips, graham cracker.",
+      tags: ["Shake", "Pi Day"],
+    },
+    {
+      name: "Key Lime Pie",
+      description:
+        "Vanilla and French vanilla protein, lime extract, graham crackers.",
+      tags: ["Shake", "Pi Day"],
+    },
+    {
+      name: "Banana Cream Pie",
+      description:
+        "Vanilla, French vanilla, and banana protein, caramel drizzle, graham crackers.",
+      tags: ["Shake", "Pi Day"],
+    },
+    {
+      name: "Pumpkin Pie",
+      description:
+        "Vanilla and pumpkin protein, cinnamon, caramel drizzle, graham crackers.",
+      tags: ["Shake", "Pi Day"],
+    },
+
+    // =========================
+    // ⭐ MAY THE 4TH SPECIALS
+    // =========================
+    {
+      name: "Yoda",
+      description:
+        "Lemon lime B12, lemon tea, mango aloe, green apple, cucumber lime.",
+      tags: ["Tea", "May the 4th", "May"],
+    },
+    {
+      name: "Darth Vader",
+      description:
+        "Pomegranate B12, raspberry tea, cranberry aloe, grape, blue blast.",
+      tags: ["Tea", "May the 4th", "May"],
     },
   ],
 };
