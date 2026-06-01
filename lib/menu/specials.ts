@@ -2,151 +2,157 @@ import type { MenuCategory } from "./types";
 
 export const specials: MenuCategory = {
   id: "monthly-specials",
-  title: "Seasonal Specials",
-  subtitle: "May Specials — limited-time favorites.",
+  title: "Monthly Specials",
+  subtitle: "June Specials — limited-time favorites.",
   items: [
     // =========================
-    // 🎉 CINCO DE MAYO SPECIALS
+    // ☀️ SUMMER SPECIALS — SHAKES
     // =========================
     {
-      name: "Cactus Cooler",
+      name: "Zebra Cake",
       description:
-        "Peach tea, pineapple, green apple, cucumber lime, tropical B12, mango aloe.",
-      tags: ["Tea", "Cinco de Mayo", "May"],
+        "Vanilla and cookies n cream protein, SF dark chocolate drizzle, layered SF whipped cream.",
+      tags: ["Shake", "Summer", "June"],
     },
     {
-      name: "Cha Cha Chai",
+      name: "Mango Lemon",
       description:
-        "Vanilla protein, café latte protein, French vanilla protein, ground coffee, chai tea, caramel, sprinkles.",
-      tags: ["Shake", "Cinco de Mayo", "May"],
+        "Mango pineapple and vanilla protein, lemon extract, frozen mangos.",
+      tags: ["Shake", "Summer", "June"],
+    },
+    {
+      name: "PB Parfait",
+      description:
+        "Peanut cookie, cookies n cream, and Dutch protein, rolled oats, frozen strawberries.",
+      tags: ["Shake", "Summer", "June"],
+    },
+    {
+      name: "Strawberry Piña Colada",
+      description:
+        "Vanilla and piña colada protein, frozen pineapples and strawberries, umbrella.",
+      tags: ["Shake", "Summer", "June"],
     },
 
     // =========================
-    // 🌸 MAY SPECIALS — TEAS
+    // ☀️ SUMMER SPECIALS — TEAS
     // =========================
     {
-      name: "Strawberry Dragonfruit",
+      name: "Summer Loving",
       description:
-        "Lemon tea, lemon lime B12, strawberry, lemonade, dehydrated dragonfruit, cranberry aloe.",
-      tags: ["Tea", "May"],
+        "Peach tea, mango, razz, tropical B12, mango aloe.",
+      tags: ["Tea", "Summer", "June"],
     },
     {
-      name: "In Bloom",
+      name: "Flirty Flamingo",
       description:
-        "Pomegranate B12, raspberry tea, blueberry, cherry, cranberry aloe.",
-      tags: ["Tea", "May"],
+        "Raspberry tea, watermelon, coconut, raspberry, lemon B12, cranberry aloe.",
+      tags: ["Tea", "Summer", "June"],
     },
     {
-      name: "Sunshine",
+      name: "Ocean Water",
       description:
-        "Orange B12, peach tea, peach, coconut, lemonade, blue raspberry, mango aloe.",
-      tags: ["Tea", "May"],
+        "Lemon tea, cucumber lime, blue blast, tropical B12, cranberry aloe.",
+      tags: ["Tea", "Summer", "June"],
     },
     {
-      name: "Spring Breeze",
+      name: "Red Sour Patch",
       description:
-        "Raspberry tea, pomegranate B12, cucumber, strawberry, cranberry aloe.",
-      tags: ["Tea", "May"],
+        "Lemon tea, tropical fruit, rainbow candy, orange, lemon B12, cranberry aloe.",
+      tags: ["Tea", "Summer", "June"],
     },
 
     // =========================
-    // 🌸 MAY SPECIALS — SHAKES
+    // 🍋 JUNE SPECIALS — TEAS
     // =========================
     {
-      name: "Piña Colada",
+      name: "Caribbean Lemonade",
       description:
-        "Vanilla and piña colada protein, coconut extract, frozen pineapple.",
-      tags: ["Shake", "May"],
+        "Lemon tea, blackberry, lemonade, peach, tropical B12, mango aloe.",
+      tags: ["Tea", "June"],
     },
     {
-      name: "Island Breeze",
+      name: "Hot Girl Summer",
       description:
-        "Orange, vanilla protein, frozen mangoes and pineapple.",
-      tags: ["Shake", "May"],
+        "Peach tea, watermelon, orange, piña colada, strawberry, orange B12, cranberry aloe.",
+      tags: ["Tea", "June"],
     },
     {
-      name: "Monkey Bread",
+      name: "Summer Crush",
       description:
-        "Vanilla, dulce, and praline protein, cinnamon, caramel rim.",
-      tags: ["Shake", "May"],
+        "Raspberry tea, blue razz, cherry, rainbow candy, orange B12, cranberry aloe.",
+      tags: ["Tea", "June"],
     },
     {
-      name: "Honey Breeze",
+      name: "Sunny D",
       description:
-        "Vanilla, French vanilla protein, lemon extract, honey drizzle.",
-      tags: ["Shake", "May"],
+        "Peach tea, melon, orange, orange B12, orange electrolytes, mango aloe.",
+      tags: ["Tea", "Special Tea", "June"],
     },
 
     // =========================
-    // 🇺🇸 MEMORIAL DAY SPECIALS
+    // 🍊 JUNE SPECIALS — SHAKES
     // =========================
     {
-      name: "Patriotic Punch",
+      name: "Push Pop",
       description:
-        "Razz tea, pomegranate B12, cherry lime, blue raspberry, cranberry aloe.",
-      tags: ["Tea", "Memorial Day", "May"],
+        "Orange cream and vanilla protein.",
+      tags: ["Shake", "June"],
     },
     {
-      name: "Freedom Shake",
+      name: "Bahama Berry Breeze",
       description:
-        "Vanilla, French vanilla protein, lemon extract, blueberries.",
-      tags: ["Shake", "Memorial Day", "May"],
+        "Wildberry and mango pineapple protein, frozen pineapples.",
+      tags: ["Shake", "June"],
+    },
+    {
+      name: "Drumstick",
+      description:
+        "Chocolate, Dutch, and peanut cookie protein, peanut butter, choco drizzle, peanuts, graham crackers.",
+      tags: ["Shake", "June"],
     },
 
     // =========================
-    // 🥧 PI DAY SPECIALS
+    // 🌴 MARGARITAVILLE SPECIALS — TEAS
     // =========================
     {
-      name: "Apple Pie",
+      name: "Peach Bellini",
       description:
-        "Vanilla, dulce, and pralines protein, apple pie spice, caramel drizzle, graham cracker.",
-      tags: ["Shake", "Pi Day"],
+        "Raspberry tea, peach, raspberry, lemonade, lemon lime B12, cranberry aloe.",
+      tags: ["Tea", "Margaritaville", "June"],
     },
     {
-      name: "Blueberry Pie",
+      name: "The Lifeboat",
       description:
-        "Vanilla and French vanilla protein, blueberries, graham crackers.",
-      tags: ["Shake", "Pi Day"],
+        "Raspberry tea, cranberry, cucumber lime, lemon lime B12, cranberry aloe.",
+      tags: ["Tea", "Margaritaville", "June"],
     },
     {
-      name: "French Silk Pie",
+      name: "Sex on The Beach",
       description:
-        "Chocolate, Dutch, and vanilla protein, chocolate drizzle, chocolate chips, graham cracker.",
-      tags: ["Shake", "Pi Day"],
-    },
-    {
-      name: "Key Lime Pie",
-      description:
-        "Vanilla and French vanilla protein, lime extract, graham crackers.",
-      tags: ["Shake", "Pi Day"],
-    },
-    {
-      name: "Banana Cream Pie",
-      description:
-        "Vanilla, French vanilla, and banana protein, caramel drizzle, graham crackers.",
-      tags: ["Shake", "Pi Day"],
-    },
-    {
-      name: "Pumpkin Pie",
-      description:
-        "Vanilla and pumpkin protein, cinnamon, caramel drizzle, graham crackers.",
-      tags: ["Shake", "Pi Day"],
+        "Original tea, peach, orange, orange B12, cranberry aloe.",
+      tags: ["Tea", "Margaritaville", "June"],
     },
 
     // =========================
-    // ⭐ MAY THE 4TH SPECIALS
+    // 🌴 MARGARITAVILLE SPECIALS — SHAKES
     // =========================
     {
-      name: "Yoda",
+      name: "Lava Flow",
       description:
-        "Lemon lime B12, lemon tea, mango aloe, green apple, cucumber lime.",
-      tags: ["Tea", "May the 4th", "May"],
+        "Piña colada and vanilla protein, coconut extract, strawberry SF syrup.",
+      tags: ["Shake", "Margaritaville", "June"],
     },
     {
-      name: "Darth Vader",
+      name: "Mango Marg",
       description:
-        "Pomegranate B12, raspberry tea, cranberry aloe, grape, blue blast.",
-      tags: ["Tea", "May the 4th", "May"],
+        "Mango pineapple and vanilla protein, lime extract, mangos.",
+      tags: ["Shake", "Margaritaville", "June"],
+    },
+    {
+      name: "Espresso Martini",
+      description:
+        "Cafe latte and chocolate protein, ground coffee, choco drizzle, choco chips.",
+      tags: ["Shake", "Margaritaville", "June"],
     },
   ],
 };
