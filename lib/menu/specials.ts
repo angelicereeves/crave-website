@@ -3,156 +3,118 @@ import type { MenuCategory } from "./types";
 export const specials: MenuCategory = {
   id: "monthly-specials",
   title: "Monthly Specials",
-  subtitle: "June Specials — limited-time favorites.",
+  subtitle: "July Specials — limited-time favorites.",
   items: [
     // =========================
-    // ☀️ SUMMER SPECIALS — SHAKES
+    // 🌴 JULY SPECIALS — REFRESHERS
     // =========================
     {
-      name: "Zebra Cake",
+      name: "Tiki Island Cooler",
       description:
-        "Vanilla and cookies n cream protein, SF dark chocolate drizzle, layered SF whipped cream.",
-      tags: ["Shake", "Summer", "June"],
+        "Peach tea, pineapple, green apple, passion fruit, mango, mango aloe, tropical B12.",
+      tags: ["Tea", "Refresher", "July"],
     },
     {
-      name: "Mango Lemon",
+      name: "Staycation",
       description:
-        "Mango pineapple and vanilla protein, lemon extract, frozen mangos.",
-      tags: ["Shake", "Summer", "June"],
+        "Lemon tea, blue razz, raspberry, coconut, mango aloe, pomegranate B12.",
+      tags: ["Tea", "Refresher", "July"],
     },
     {
-      name: "PB Parfait",
+      name: "Pink Flamingo",
       description:
-        "Peanut cookie, cookies n cream, and Dutch protein, rolled oats, frozen strawberries.",
-      tags: ["Shake", "Summer", "June"],
+        "Raspberry tea, watermelon, cucumber, rainbow candy, cranberry aloe, lemon B12.",
+      tags: ["Tea", "Refresher", "July"],
     },
     {
-      name: "Strawberry Piña Colada",
+      name: "Electric Lemonade",
       description:
-        "Vanilla and piña colada protein, frozen pineapples and strawberries, umbrella.",
-      tags: ["Shake", "Summer", "June"],
+        "Lemon tea, lemonade, blue blast, cucumber, cranberry aloe, lemon B12.",
+      tags: ["Tea", "Refresher", "July"],
     },
 
     // =========================
-    // ☀️ SUMMER SPECIALS — TEAS
+    // 🌴 JULY SPECIALS — SHAKES
     // =========================
     {
-      name: "Summer Loving",
+      name: "PB Banana Nutella",
       description:
-        "Peach tea, mango, razz, tropical B12, mango aloe.",
-      tags: ["Tea", "Summer", "June"],
+        "Peanut cookie and banana protein, PB scoop, Nutella rim, peanuts.",
+      tags: ["Shake", "July"],
     },
     {
-      name: "Flirty Flamingo",
+      name: "Blueberry Lemon Bar",
       description:
-        "Raspberry tea, watermelon, coconut, raspberry, lemon B12, cranberry aloe.",
-      tags: ["Tea", "Summer", "June"],
+        "Vanilla and French vanilla protein, lemon extract, frozen blueberries, graham crackers.",
+      tags: ["Shake", "July"],
     },
     {
-      name: "Ocean Water",
+      name: "Coffee Cooler",
       description:
-        "Lemon tea, cucumber lime, blue blast, tropical B12, cranberry aloe.",
-      tags: ["Tea", "Summer", "June"],
+        "Chocolate, Dutch, and dulce protein, ground coffee, cinnamon, caramel drizzle, whip cream.",
+      tags: ["Shake", "July"],
     },
     {
-      name: "Red Sour Patch",
+      name: "Strawberry Mango Tango",
       description:
-        "Lemon tea, tropical fruit, rainbow candy, orange, lemon B12, cranberry aloe.",
-      tags: ["Tea", "Summer", "June"],
+        "Strawberry cheesecake, mango pineapple, and vanilla protein, frozen strawberries and mangos.",
+      tags: ["Shake", "July"],
     },
 
     // =========================
-    // 🍋 JUNE SPECIALS — TEAS
+    // 🎡 FAIR SPECIALS — REFRESHERS
     // =========================
     {
-      name: "Caribbean Lemonade",
+      name: "Cotton Candy Craze",
       description:
-        "Lemon tea, blackberry, lemonade, peach, tropical B12, mango aloe.",
-      tags: ["Tea", "June"],
+        "Raspberry tea, blueberry, strawberry, blue razz, cranberry aloe, pomegranate B12.",
+      tags: ["Tea", "Refresher", "Fair", "July"],
     },
     {
-      name: "Hot Girl Summer",
+      name: "Carnival Punch",
       description:
-        "Peach tea, watermelon, orange, piña colada, strawberry, orange B12, cranberry aloe.",
-      tags: ["Tea", "June"],
+        "Original tea, tropical fruit, strawberry kiwi, rainbow candy, cranberry aloe, orange B12.",
+      tags: ["Tea", "Refresher", "Fair", "July"],
     },
     {
-      name: "Summer Crush",
+      name: "Snow Cone",
       description:
-        "Raspberry tea, blue razz, cherry, rainbow candy, orange B12, cranberry aloe.",
-      tags: ["Tea", "June"],
+        "Raspberry tea, blue razz, strawberry, grape, cranberry aloe, pomegranate B12.",
+      tags: ["Tea", "Refresher", "Fair", "July"],
     },
     {
-      name: "Sunny D",
+      name: "Ring Toss",
       description:
-        "Peach tea, melon, orange, orange B12, orange electrolytes, mango aloe.",
-      tags: ["Tea", "Special Tea", "June"],
+        "Peach tea, peach, cherry lime, pineapple, mango aloe, orange B12.",
+      tags: ["Tea", "Refresher", "Fair", "July"],
     },
 
     // =========================
-    // 🍊 JUNE SPECIALS — SHAKES
+    // 🎡 FAIR SPECIALS — SHAKES
     // =========================
     {
-      name: "Push Pop",
+      name: "Churro",
       description:
-        "Orange cream and vanilla protein.",
-      tags: ["Shake", "June"],
+        "Vanilla and dulce protein, butterscotch, cinnamon, caramel.",
+      tags: ["Shake", "Fair", "July"],
     },
     {
-      name: "Bahama Berry Breeze",
+      name: "Choco Nutt",
       description:
-        "Wildberry and mango pineapple protein, frozen pineapples.",
-      tags: ["Shake", "June"],
+        "Chocolate, Dutch, and praline protein, walnuts, toffee, Nutella rim.",
+      tags: ["Shake", "Fair", "July"],
     },
     {
-      name: "Drumstick",
+      name: "Apple Nacho",
       description:
-        "Chocolate, Dutch, and peanut cookie protein, peanut butter, choco drizzle, peanuts, graham crackers.",
-      tags: ["Shake", "June"],
-    },
-
-    // =========================
-    // 🌴 MARGARITAVILLE SPECIALS — TEAS
-    // =========================
-    {
-      name: "Peach Bellini",
-      description:
-        "Raspberry tea, peach, raspberry, lemonade, lemon lime B12, cranberry aloe.",
-      tags: ["Tea", "Margaritaville", "June"],
+        "Praline, vanilla, and dulce protein, apple pie spice, Fruit Pebbles, caramel, white choco chips.",
+      tags: ["Shake", "Fair", "July"],
     },
     {
-      name: "The Lifeboat",
+      name: "Deep Fried Oreo",
       description:
-        "Raspberry tea, cranberry, cucumber lime, lemon lime B12, cranberry aloe.",
-      tags: ["Tea", "Margaritaville", "June"],
-    },
-    {
-      name: "Sex on The Beach",
-      description:
-        "Original tea, peach, orange, orange B12, cranberry aloe.",
-      tags: ["Tea", "Margaritaville", "June"],
-    },
-
-    // =========================
-    // 🌴 MARGARITAVILLE SPECIALS — SHAKES
-    // =========================
-    {
-      name: "Lava Flow",
-      description:
-        "Piña colada and vanilla protein, coconut extract, strawberry SF syrup.",
-      tags: ["Shake", "Margaritaville", "June"],
-    },
-    {
-      name: "Mango Marg",
-      description:
-        "Mango pineapple and vanilla protein, lime extract, mangos.",
-      tags: ["Shake", "Margaritaville", "June"],
-    },
-    {
-      name: "Espresso Martini",
-      description:
-        "Cafe latte and chocolate protein, ground coffee, choco drizzle, choco chips.",
-      tags: ["Shake", "Margaritaville", "June"],
+        "Vanilla, cookies n cream, and chocolate protein, Oreos, graham crackers, chocolate drizzle.",
+      tags: ["Shake", "Fair", "July"],
     },
   ],
 };
