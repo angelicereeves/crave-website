@@ -3,118 +3,194 @@ import type { MenuCategory } from "./types";
 export const specials: MenuCategory = {
   id: "monthly-specials",
   title: "Monthly Specials",
-  subtitle: "July Specials — limited-time favorites.",
+  subtitle: "August Specials — limited-time favorites.",
   items: [
     // =========================
-    // 🌴 JULY SPECIALS — REFRESHERS
+    // ☀️ AUGUST SPECIALS — REFRESHERS
     // =========================
     {
-      name: "Tiki Island Cooler",
+      name: "Cucumber Splash",
       description:
-        "Peach tea, pineapple, green apple, passion fruit, mango, mango aloe, tropical B12.",
-      tags: ["Tea", "Refresher", "July"],
+        "Lemon tea, lemon B12, cucumber lime, cranberry, cranberry aloe.",
+      tags: ["Tea", "Refresher", "August"],
     },
     {
-      name: "Staycation",
+      name: "Dragonfruit Mango",
       description:
-        "Lemon tea, blue razz, raspberry, coconut, mango aloe, pomegranate B12.",
-      tags: ["Tea", "Refresher", "July"],
+        "Peach tea, tropical B12, mango, passion fruit, dragonfruit bits, mango aloe.",
+      tags: ["Tea", "Refresher", "August"],
     },
     {
-      name: "Pink Flamingo",
+      name: "Blackberry Smash",
       description:
-        "Raspberry tea, watermelon, cucumber, rainbow candy, cranberry aloe, lemon B12.",
-      tags: ["Tea", "Refresher", "July"],
+        "Raspberry tea, orange B12, blackberry, pomegranate, rainbow candy, cranberry aloe.",
+      tags: ["Tea", "Refresher", "August"],
     },
     {
-      name: "Electric Lemonade",
+      name: "Watermelon Jolly Rancher",
       description:
-        "Lemon tea, lemonade, blue blast, cucumber, cranberry aloe, lemon B12.",
-      tags: ["Tea", "Refresher", "July"],
+        "Lemon tea, lemon B12, watermelon, pomegranate, cranberry aloe.",
+      tags: ["Tea", "Refresher", "August"],
     },
 
     // =========================
-    // 🌴 JULY SPECIALS — SHAKES
+    // ☀️ AUGUST SPECIALS — SHAKES
     // =========================
     {
-      name: "PB Banana Nutella",
+      name: "Pineapple Upside Down",
       description:
-        "Peanut cookie and banana protein, PB scoop, Nutella rim, peanuts.",
-      tags: ["Shake", "July"],
+        "Vanilla and piña colada protein, frozen pineapple, sugar-free strawberry syrup, graham cracker.",
+      tags: ["Shake", "August"],
     },
     {
-      name: "Blueberry Lemon Bar",
+      name: "PayDay",
       description:
-        "Vanilla and French vanilla protein, lemon extract, frozen blueberries, graham crackers.",
-      tags: ["Shake", "July"],
+        "Peanut cookie, dulce, and vanilla protein, peanut butter scoop, sugar-free caramel drizzle, peanuts.",
+      tags: ["Shake", "August"],
     },
     {
-      name: "Coffee Cooler",
+      name: "Banana Cookie Dough",
       description:
-        "Chocolate, Dutch, and dulce protein, ground coffee, cinnamon, caramel drizzle, whip cream.",
-      tags: ["Shake", "July"],
+        "Banana, double vanilla, and cookie dough protein, sugar-free chocolate rim, graham cracker, chocolate chips.",
+      tags: ["Shake", "August"],
     },
     {
-      name: "Strawberry Mango Tango",
+      name: "Chocolate Covered Strawberry",
       description:
-        "Strawberry cheesecake, mango pineapple, and vanilla protein, frozen strawberries and mangos.",
-      tags: ["Shake", "July"],
+        "Vanilla and strawberry cheesecake protein, frozen strawberries, full sugar-free chocolate rim, sliced strawberry on top.",
+      tags: ["Shake", "August"],
     },
 
     // =========================
-    // 🎡 FAIR SPECIALS — REFRESHERS
+    // 📚 BACK TO SCHOOL — REFRESHERS
     // =========================
     {
-      name: "Cotton Candy Craze",
+      name: "The Trojan Tea",
       description:
-        "Raspberry tea, blueberry, strawberry, blue razz, cranberry aloe, pomegranate B12.",
-      tags: ["Tea", "Refresher", "Fair", "July"],
+        "Lemon tea, pineapple, cucumber lime, blue blast, lemon lime B12, cranberry aloe.",
+      tags: ["Tea", "Refresher", "Back to School", "August"],
     },
     {
-      name: "Carnival Punch",
+      name: "Teachers Pet",
       description:
-        "Original tea, tropical fruit, strawberry kiwi, rainbow candy, cranberry aloe, orange B12.",
-      tags: ["Tea", "Refresher", "Fair", "July"],
+        "Peach tea, blue razz, coconut, lemonade, tropical B12, mango aloe.",
+      tags: ["Tea", "Refresher", "Back to School", "August"],
     },
     {
-      name: "Snow Cone",
+      name: "Class Clown",
       description:
-        "Raspberry tea, blue razz, strawberry, grape, cranberry aloe, pomegranate B12.",
-      tags: ["Tea", "Refresher", "Fair", "July"],
+        "Raspberry tea, strawberry, cherry lime, grape, pomegranate B12, cranberry aloe.",
+      tags: ["Tea", "Refresher", "Back to School", "August"],
     },
     {
-      name: "Ring Toss",
+      name: "Teachers Apple",
       description:
-        "Peach tea, peach, cherry lime, pineapple, mango aloe, orange B12.",
-      tags: ["Tea", "Refresher", "Fair", "July"],
+        "Lemon tea, green apple, cherry lime, pomegranate B12, cranberry aloe.",
+      tags: ["Tea", "Refresher", "Back to School", "August"],
     },
 
     // =========================
-    // 🎡 FAIR SPECIALS — SHAKES
+    // 📚 BACK TO SCHOOL — SHAKES
     // =========================
     {
-      name: "Churro",
+      name: "PB and Jelly",
       description:
-        "Vanilla and dulce protein, butterscotch, cinnamon, caramel.",
-      tags: ["Shake", "Fair", "July"],
+        "Peanut cookie, vanilla, and strawberry cheesecake protein, raspberry syrup, peanut butter scoop, peanut butter rim.",
+      tags: ["Shake", "Back to School", "August"],
     },
     {
-      name: "Choco Nutt",
+      name: "Smarty Pants",
       description:
-        "Chocolate, Dutch, and praline protein, walnuts, toffee, Nutella rim.",
-      tags: ["Shake", "Fair", "July"],
+        "Praline, vanilla, and cookies n cream protein, butterscotch pudding, caramel rim, toffee bits.",
+      tags: ["Shake", "Back to School", "August"],
     },
     {
-      name: "Apple Nacho",
+      name: "Book Worm",
       description:
-        "Praline, vanilla, and dulce protein, apple pie spice, Fruit Pebbles, caramel, white choco chips.",
-      tags: ["Shake", "Fair", "July"],
+        "Chocolate, cookies n cream, and Dutch chocolate protein, Oreo, chocolate rim, gummy worms.",
+      tags: ["Shake", "Back to School", "August"],
     },
     {
-      name: "Deep Fried Oreo",
+      name: "Magic School Bus",
       description:
-        "Vanilla, cookies n cream, and chocolate protein, Oreos, graham crackers, chocolate drizzle.",
-      tags: ["Shake", "Fair", "July"],
+        "Vanilla and banana caramel protein, cinnamon, almond butter.",
+      tags: ["Shake", "Back to School", "August"],
+    },
+
+    // =========================
+    // ♈ ZODIAC SPECIALS — REFRESHERS
+    // =========================
+    {
+      name: "Aries",
+      description:
+        "Raspberry tea, cranberry, cherry lime, raspberry, cranberry aloe, pomegranate B12.",
+      tags: ["Tea", "Refresher", "Zodiac", "August"],
+    },
+    {
+      name: "Taurus",
+      description:
+        "Raspberry tea, strawberry, melon, strawberry kiwi, cranberry aloe, tropical B12.",
+      tags: ["Tea", "Refresher", "Zodiac", "August"],
+    },
+    {
+      name: "Gemini",
+      description:
+        "Peach tea, orange, melon, orange pineapple, mango aloe, orange B12, orange electrolytes.",
+      tags: ["Tea", "Refresher", "Zodiac", "August"],
+    },
+    {
+      name: "Cancer",
+      description:
+        "Lemon tea, mango, passion fruit, mango aloe, tropical B12.",
+      tags: ["Tea", "Refresher", "Zodiac", "August"],
+    },
+    {
+      name: "Leo",
+      description:
+        "Peach tea, pineapple, lemonade, mango aloe, orange B12.",
+      tags: ["Tea", "Refresher", "Zodiac", "August"],
+    },
+    {
+      name: "Virgo",
+      description:
+        "Lemon tea, green apple, piña colada, cranberry aloe, lemon B12.",
+      tags: ["Tea", "Refresher", "Zodiac", "August"],
+    },
+    {
+      name: "Libra",
+      description:
+        "Raspberry tea, blue razz, green apple, cranberry aloe, lemon B12.",
+      tags: ["Tea", "Refresher", "Zodiac", "August"],
+    },
+    {
+      name: "Scorpio",
+      description:
+        "Original tea, blueberry, cucumber, cranberry aloe, lemon B12.",
+      tags: ["Tea", "Refresher", "Zodiac", "August"],
+    },
+    {
+      name: "Sagittarius",
+      description:
+        "Raspberry tea, blue blast, pomegranate, cranberry aloe, pomegranate B12.",
+      tags: ["Tea", "Refresher", "Zodiac", "August"],
+    },
+    {
+      name: "Capricorn",
+      description:
+        "Raspberry tea, grape, blueberry, strawberry, cranberry aloe, pomegranate B12.",
+      tags: ["Tea", "Refresher", "Zodiac", "August"],
+    },
+    {
+      name: "Aquarius",
+      description:
+        "Lemon tea, blackberry, dragonfruit lemonade, cranberry aloe, lemon B12, dragonfruit pieces.",
+      tags: ["Tea", "Refresher", "Zodiac", "August"],
+    },
+    {
+      name: "Pisces",
+      description:
+        "Raspberry tea, watermelon, raspberry, cranberry, coconut, blue razz, cranberry aloe, pomegranate B12.",
+      tags: ["Tea", "Refresher", "Zodiac", "August"],
     },
   ],
 };
