@@ -192,5 +192,48 @@ export const specials: MenuCategory = {
         "Raspberry tea, watermelon, raspberry, cranberry, coconut, blue razz, cranberry aloe, pomegranate B12.",
       tags: ["Tea", "Refresher", "Zodiac", "August"],
     },
+        // =========================
+    // 🍭 CANDYLAND — REFRESHERS
+    // =========================
+    {
+      name: "King Kandy",
+      description:
+        "Raspberry tea, rainbow candy, orange, raspberry, lemon B12, cranberry aloe.",
+      tags: ["Tea", "Refresher", "Candyland", "August"],
+    },
+    {
+      name: "Princess Frostine",
+      description:
+        "Lemon tea, piña colada, raspberry, tropical fruit, mango aloe.",
+      tags: ["Tea", "Refresher", "Candyland", "August"],
+    },
+    {
+      name: "Lord Licorice",
+      description:
+        "Original tea, tropical fruit, pomegranate, pomegranate B12, cranberry aloe, Twizzler.",
+      tags: ["Tea", "Refresher", "Candyland", "August"],
+    },
+    {
+      name: "Princess Lolly",
+      description:
+        "Raspberry tea, watermelon, blue razz, orange B12, cranberry aloe.",
+      tags: ["Tea", "Refresher", "Candyland", "August"],
+    },
+
+    // =========================
+    // 🍭 CANDYLAND — SHAKES
+    // =========================
+    {
+      name: "Gramma Nutt",
+      description:
+        "Vanilla, peanut & praline protein, sugar-free caramel drizzle, peanuts, walnuts.",
+      tags: ["Shake", "Candyland", "August"],
+    },
+    {
+      name: "Mr. Mint",
+      description:
+        "Vanilla & French vanilla protein, peppermint extract, sugar-free strawberry & raspberry syrup.",
+      tags: ["Shake", "Candyland", "August"],
+    },
   ],
 };
