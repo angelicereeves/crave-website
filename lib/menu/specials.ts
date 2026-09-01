@@ -3,237 +3,158 @@ import type { MenuCategory } from "./types";
 export const specials: MenuCategory = {
   id: "monthly-specials",
   title: "Monthly Specials",
-  subtitle: "August Specials — limited-time favorites.",
+  subtitle: "September Specials — limited-time favorites.",
   items: [
     // =========================
-    // ☀️ AUGUST SPECIALS — REFRESHERS
+    // 🍂 SEPTEMBER SPECIALS — TEAS
     // =========================
     {
-      name: "Cucumber Splash",
+      name: "Friday Night Lights",
       description:
-        "Lemon tea, lemon B12, cucumber lime, cranberry, cranberry aloe.",
-      tags: ["Tea", "Refresher", "August"],
+        "Peach tea, orange, peach, pineapple, blue blast, orange B12, mango aloe.",
+      tags: ["Tea", "Refresher", "September"],
     },
     {
-      name: "Dragonfruit Mango",
+      name: "Get Cozy",
       description:
-        "Peach tea, tropical B12, mango, passion fruit, dragonfruit bits, mango aloe.",
-      tags: ["Tea", "Refresher", "August"],
+        "Raspberry tea, raspberry, blue razz, cherry, orange B12, cranberry aloe.",
+      tags: ["Tea", "Refresher", "September"],
     },
     {
-      name: "Blackberry Smash",
+      name: "Blackberry Chai",
       description:
-        "Raspberry tea, orange B12, blackberry, pomegranate, rainbow candy, cranberry aloe.",
-      tags: ["Tea", "Refresher", "August"],
+        "Chai tea, blackberry, cranberry, pomegranate B12, cranberry aloe.",
+      tags: ["Tea", "Refresher", "September"],
     },
     {
-      name: "Watermelon Jolly Rancher",
+      name: "Campfire Colada",
       description:
-        "Lemon tea, lemon B12, watermelon, pomegranate, cranberry aloe.",
-      tags: ["Tea", "Refresher", "August"],
+        "Lemon tea, tropical fruit, watermelon, strawberry, orange, piña colada, tropical B12, cranberry aloe.",
+      tags: ["Tea", "Refresher", "September"],
     },
 
     // =========================
-    // ☀️ AUGUST SPECIALS — SHAKES
+    // 🍂 SEPTEMBER SPECIALS — SHAKES
     // =========================
     {
-      name: "Pineapple Upside Down",
+      name: "Butterfinger",
       description:
-        "Vanilla and piña colada protein, frozen pineapple, sugar-free strawberry syrup, graham cracker.",
-      tags: ["Shake", "August"],
+        "Chocolate, peanut cookie, and dulce protein, peanut butter, caramel drizzle, Butterfinger bits.",
+      tags: ["Shake", "September"],
     },
     {
-      name: "PayDay",
+      name: "Praline Brownie",
       description:
-        "Peanut cookie, dulce, and vanilla protein, peanut butter scoop, sugar-free caramel drizzle, peanuts.",
-      tags: ["Shake", "August"],
+        "Praline and chocolate protein, chocolate chips, caramel and chocolate drizzle.",
+      tags: ["Shake", "September"],
     },
     {
-      name: "Banana Cookie Dough",
+      name: "Pumpkin Chai",
       description:
-        "Banana, double vanilla, and cookie dough protein, sugar-free chocolate rim, graham cracker, chocolate chips.",
-      tags: ["Shake", "August"],
+        "Chai tea, French vanilla, vanilla (2), pumpkin spice protein, cinnamon, pumpkin spice drizzle.",
+      tags: ["Shake", "September"],
     },
     {
-      name: "Chocolate Covered Strawberry",
+      name: "Brown Sugar Banana",
       description:
-        "Vanilla and strawberry cheesecake protein, frozen strawberries, full sugar-free chocolate rim, sliced strawberry on top.",
-      tags: ["Shake", "August"],
+        "Vanilla, cafe latte, and banana protein, ground coffee, cinnamon, caramel drizzle.",
+      tags: ["Shake", "September"],
     },
 
     // =========================
-    // 📚 BACK TO SCHOOL — REFRESHERS
+    // 🪄 HARRY POTTER MAGIC MONTH — TEAS
     // =========================
     {
-      name: "The Trojan Tea",
+      name: "Gryffindor",
       description:
-        "Lemon tea, pineapple, cucumber lime, blue blast, lemon lime B12, cranberry aloe.",
-      tags: ["Tea", "Refresher", "Back to School", "August"],
+        "Tropical B12, original tea, strawberry, passion fruit.",
+      tags: ["Tea", "Refresher", "Harry Potter", "September"],
     },
     {
-      name: "Teachers Pet",
+      name: "Ravenclaw",
       description:
-        "Peach tea, blue razz, coconut, lemonade, tropical B12, mango aloe.",
-      tags: ["Tea", "Refresher", "Back to School", "August"],
+        "Lemon lime B12, original tea, blue blast, coconut, cranberry aloe.",
+      tags: ["Tea", "Refresher", "Harry Potter", "September"],
     },
     {
-      name: "Class Clown",
+      name: "Hufflepuff",
       description:
-        "Raspberry tea, strawberry, cherry lime, grape, pomegranate B12, cranberry aloe.",
-      tags: ["Tea", "Refresher", "Back to School", "August"],
+        "Tropical B12, peach tea, pineapple, melon, mango aloe.",
+      tags: ["Tea", "Refresher", "Harry Potter", "September"],
     },
     {
-      name: "Teachers Apple",
+      name: "Slytherin",
       description:
-        "Lemon tea, green apple, cherry lime, pomegranate B12, cranberry aloe.",
-      tags: ["Tea", "Refresher", "Back to School", "August"],
+        "Lemon lime B12, lemon tea, green apple, coconut, cucumber lime, pineapple, mango aloe.",
+      tags: ["Tea", "Refresher", "Harry Potter", "September"],
+    },
+    {
+      name: "The Phoenix",
+      description:
+        "Orange B12, peach tea, orange pineapple, cherry lime, mango, mango aloe.",
+      tags: ["Tea", "Refresher", "Harry Potter", "September"],
+    },
+    {
+      name: "Unicorn Blood",
+      description:
+        "Tropical B12, raspberry tea, raspberry, rainbow candy, blue raspberry, cranberry aloe.",
+      tags: ["Tea", "Refresher", "Harry Potter", "September"],
+    },
+    {
+      name: "Polyjuice Potion",
+      description:
+        "Pomegranate B12, lemon tea, rainbow candy, grape, mango aloe.",
+      tags: ["Tea", "Refresher", "Harry Potter", "September"],
+    },
+    {
+      name: "Lavenders Love Potion",
+      description:
+        "Lemon lime B12, lemon tea, pomegranate, strawberry kiwi, mango aloe.",
+      tags: ["Tea", "Refresher", "Harry Potter", "September"],
     },
 
     // =========================
-    // 📚 BACK TO SCHOOL — SHAKES
+    // 🪄 HARRY POTTER MAGIC MONTH — SHAKES
     // =========================
     {
-      name: "PB and Jelly",
+      name: "Chocolate Frog",
       description:
-        "Peanut cookie, vanilla, and strawberry cheesecake protein, raspberry syrup, peanut butter scoop, peanut butter rim.",
-      tags: ["Shake", "Back to School", "August"],
+        "Chocolate protein, Dutch chocolate protein, sugar-free dark chocolate drizzle, chocolate chips, gummy frog.",
+      tags: ["Shake", "Harry Potter", "September"],
     },
     {
-      name: "Smarty Pants",
+      name: "Butter Beer",
       description:
-        "Praline, vanilla, and cookies n cream protein, butterscotch pudding, caramel rim, toffee bits.",
-      tags: ["Shake", "Back to School", "August"],
+        "Vanilla protein, dulce protein, butterscotch, French vanilla syrup, butter extract, caramel drizzle.",
+      tags: ["Shake", "Harry Potter", "September"],
     },
     {
-      name: "Book Worm",
+      name: "White Owl",
       description:
-        "Chocolate, cookies n cream, and Dutch chocolate protein, Oreo, chocolate rim, gummy worms.",
-      tags: ["Shake", "Back to School", "August"],
+        "Vanilla protein, cookies and cream protein, French vanilla protein, raspberry syrup, white chocolate chips.",
+      tags: ["Shake", "Harry Potter", "September"],
     },
     {
-      name: "Magic School Bus",
+      name: "Whomping Willow",
       description:
-        "Vanilla and banana caramel protein, cinnamon, almond butter.",
-      tags: ["Shake", "Back to School", "August"],
+        "Cookies n cream protein, vanilla protein, cafe latte protein, brown sugar cinnamon, ground coffee, caramel drizzle, cinnamon.",
+      tags: ["Shake", "Harry Potter", "September"],
+    },
+    {
+      name: "Death Eater",
+      description:
+        "Chocolate protein, cookies n cream protein, peanut butter protein, dark chocolate and Biscoff rim, chocolate chips.",
+      tags: ["Shake", "Harry Potter", "September"],
     },
 
     // =========================
-    // ♈ ZODIAC SPECIALS — REFRESHERS
+    // 🪄 HARRY POTTER MAGIC MONTH — WAFFLES
     // =========================
     {
-      name: "Aries",
+      name: "The Dark Mark",
       description:
-        "Raspberry tea, cranberry, cherry lime, raspberry, cranberry aloe, pomegranate B12.",
-      tags: ["Tea", "Refresher", "Zodiac", "August"],
-    },
-    {
-      name: "Taurus",
-      description:
-        "Raspberry tea, strawberry, melon, strawberry kiwi, cranberry aloe, tropical B12.",
-      tags: ["Tea", "Refresher", "Zodiac", "August"],
-    },
-    {
-      name: "Gemini",
-      description:
-        "Peach tea, orange, melon, orange pineapple, mango aloe, orange B12, orange electrolytes.",
-      tags: ["Tea", "Refresher", "Zodiac", "August"],
-    },
-    {
-      name: "Cancer",
-      description:
-        "Lemon tea, mango, passion fruit, mango aloe, tropical B12.",
-      tags: ["Tea", "Refresher", "Zodiac", "August"],
-    },
-    {
-      name: "Leo",
-      description:
-        "Peach tea, pineapple, lemonade, mango aloe, orange B12.",
-      tags: ["Tea", "Refresher", "Zodiac", "August"],
-    },
-    {
-      name: "Virgo",
-      description:
-        "Lemon tea, green apple, piña colada, cranberry aloe, lemon B12.",
-      tags: ["Tea", "Refresher", "Zodiac", "August"],
-    },
-    {
-      name: "Libra",
-      description:
-        "Raspberry tea, blue razz, green apple, cranberry aloe, lemon B12.",
-      tags: ["Tea", "Refresher", "Zodiac", "August"],
-    },
-    {
-      name: "Scorpio",
-      description:
-        "Original tea, blueberry, cucumber, cranberry aloe, lemon B12.",
-      tags: ["Tea", "Refresher", "Zodiac", "August"],
-    },
-    {
-      name: "Sagittarius",
-      description:
-        "Raspberry tea, blue blast, pomegranate, cranberry aloe, pomegranate B12.",
-      tags: ["Tea", "Refresher", "Zodiac", "August"],
-    },
-    {
-      name: "Capricorn",
-      description:
-        "Raspberry tea, grape, blueberry, strawberry, cranberry aloe, pomegranate B12.",
-      tags: ["Tea", "Refresher", "Zodiac", "August"],
-    },
-    {
-      name: "Aquarius",
-      description:
-        "Lemon tea, blackberry, dragonfruit lemonade, cranberry aloe, lemon B12, dragonfruit pieces.",
-      tags: ["Tea", "Refresher", "Zodiac", "August"],
-    },
-    {
-      name: "Pisces",
-      description:
-        "Raspberry tea, watermelon, raspberry, cranberry, coconut, blue razz, cranberry aloe, pomegranate B12.",
-      tags: ["Tea", "Refresher", "Zodiac", "August"],
-    },
-        // =========================
-    // 🍭 CANDYLAND — REFRESHERS
-    // =========================
-    {
-      name: "King Kandy",
-      description:
-        "Raspberry tea, rainbow candy, orange, raspberry, lemon B12, cranberry aloe.",
-      tags: ["Tea", "Refresher", "Candyland", "August"],
-    },
-    {
-      name: "Princess Frostine",
-      description:
-        "Lemon tea, piña colada, raspberry, tropical fruit, mango aloe.",
-      tags: ["Tea", "Refresher", "Candyland", "August"],
-    },
-    {
-      name: "Lord Licorice",
-      description:
-        "Original tea, tropical fruit, pomegranate, pomegranate B12, cranberry aloe, Twizzler.",
-      tags: ["Tea", "Refresher", "Candyland", "August"],
-    },
-    {
-      name: "Princess Lolly",
-      description:
-        "Raspberry tea, watermelon, blue razz, orange B12, cranberry aloe.",
-      tags: ["Tea", "Refresher", "Candyland", "August"],
-    },
-
-    // =========================
-    // 🍭 CANDYLAND — SHAKES
-    // =========================
-    {
-      name: "Gramma Nutt",
-      description:
-        "Vanilla, peanut & praline protein, sugar-free caramel drizzle, peanuts, walnuts.",
-      tags: ["Shake", "Candyland", "August"],
-    },
-    {
-      name: "Mr. Mint",
-      description:
-        "Vanilla & French vanilla protein, peppermint extract, sugar-free strawberry & raspberry syrup.",
-      tags: ["Shake", "Candyland", "August"],
+        "Chocolate chip protein waffle, chocolate drizzle, powdered sugar, strawberries, Oreo crumbles.",
+      tags: ["Waffle", "Harry Potter", "September"],
     },
   ],
 };
