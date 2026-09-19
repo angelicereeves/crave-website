@@ -156,5 +156,113 @@ export const specials: MenuCategory = {
         "Chocolate chip protein waffle, chocolate drizzle, powdered sugar, strawberries, Oreo crumbles.",
       tags: ["Waffle", "Harry Potter", "September"],
     },
+
+        // =========================
+    // 🍁 FALL SPECIALS — TEAS
+    // =========================
+    {
+      name: "Autumn Breeze",
+      description:
+        "Orange B12, raspberry tea, pineapple, cherry lime, mango aloe.",
+      tags: ["Tea", "Refresher", "Fall", "September"],
+    },
+    {
+      name: "Caramel Apple",
+      description:
+        "Pomegranate B12, cinnamon tea, green apple, cranberry aloe, sucker.",
+      tags: ["Tea", "Refresher", "Fall", "September"],
+    },
+    {
+      name: "Spiced Sangria",
+      description:
+        "Orange B12, chai tea, blueberry, orange pineapple, mango aloe.",
+      tags: ["Tea", "Refresher", "Fall", "September"],
+    },
+    {
+      name: "Fall-Ada",
+      description:
+        "Tropical B12, peach tea, blackberry, peach, lemonade, cranberry aloe.",
+      tags: ["Tea", "Refresher", "Fall", "September"],
+    },
+    {
+      name: "Sweater Weather",
+      description:
+        "Pomegranate B12, original tea, rainbow candy, blue blast, cranberry aloe.",
+      tags: ["Tea", "Refresher", "Fall", "September"],
+    },
+
+    // =========================
+    // 🍁 FALL SPECIALS — SHAKES
+    // =========================
+    {
+      name: "Pumpkin Banana Bread",
+      description:
+        "Vanilla, banana, pumpkin spice protein, cinnamon, pumpkin spice drizzle.",
+      tags: ["Shake", "Fall", "September"],
+    },
+    {
+      name: "Pumpkin Pie",
+      description:
+        "Vanilla, pumpkin spice protein, graham cracker, pumpkin spice drizzle, cinnamon.",
+      tags: ["Shake", "Fall", "September"],
+    },
+    {
+      name: "PB Smores",
+      description:
+        "Dutch and chocolate protein, marshmallow, sugar-free s'mores syrup, peanut butter, chocolate chips, sugar-free chocolate drizzle, graham cracker.",
+      tags: ["Shake", "Fall", "September"],
+    },
+    {
+      name: "Pumpkin Oreo Crumble",
+      description:
+        "Cookies n cream, vanilla, pumpkin spice, Oreo, sugar-free chocolate and pumpkin drizzle.",
+      tags: ["Shake", "Fall", "September"],
+    },
+    {
+      name: "Pecan Pie",
+      description:
+        "2 dulce, 2 vanilla, pecans, graham cracker, caramel drizzle.",
+      tags: ["Shake", "Fall", "September"],
+    },
+
+    // =========================
+    // ☕ FALL SPECIALS — COFFEE
+    // =========================
+    {
+      name: "Pumpkin Spice Frappe",
+      description:
+        "2 vanilla, 1 cafe latte, 1 pumpkin spice, ground coffee, cinnamon, whipped cream.",
+      tags: ["Coffee", "Frappe", "Fall", "September"],
+    },
+    {
+      name: "Pumpkin Spice Hot/Iced",
+      description:
+        "2 house blend, 1 pumpkin spice, cinnamon, whipped cream.",
+      tags: ["Coffee", "Hot/Iced", "Fall", "September"],
+    },
+    {
+      name: "Hazel Nut Iced Latte",
+      description:
+        "2 house blend, 1 cafe latte, hazelnut sugar-free syrup, whipped cream.",
+      tags: ["Coffee", "Iced", "Fall", "September"],
+    },
+    {
+      name: "Salted Caramel Mocha Frappe",
+      description:
+        "2 cafe latte, 2 chocolate, ground coffee, sugar-free caramel syrup, sugar-free mocha, Himalayan salt, whipped cream.",
+      tags: ["Coffee", "Frappe", "Fall", "September"],
+    },
+    {
+      name: "Salted Caramel Mocha Hot/Iced",
+      description:
+        "2 mocha coffee, 1 cafe latte, sugar-free caramel syrup, Himalayan salt, whipped cream.",
+      tags: ["Coffee", "Hot/Iced", "Fall", "September"],
+    },
+    {
+      name: "Snickerdoodle Latte",
+      description:
+        "Banana caramel, peanut cookie protein, house blend, cinnamon, sugar-free caramel.",
+      tags: ["Coffee", "Latte", "Fall", "September"],
+    },
   ],
 };
