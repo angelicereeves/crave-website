@@ -2,6 +2,7 @@ import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
+import BirthdayConfetti from "@/components/BirthdayConfetti";
 
 export const metadata: Metadata = {
   title: "Crave | Nutrition & Health Drink Cafe",
@@ -17,6 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen text-slate-900 antialiased">
+        
+        <BirthdayConfetti />
+          {children}
+
         {/* Top Navbar */}
         <header className="sticky top-0 z-50 border-b border-purple-300/40 bg-purple-100/80 backdrop-blur">
           <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
@@ -104,6 +109,8 @@ export default function RootLayout({
             </div>
           </div>
         </header>
+
+        
 
         {/* Global background */}
         <main className="bg-gradient-to-b from-purple-50 via-white to-emerald-50">
